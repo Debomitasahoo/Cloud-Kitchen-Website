@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">CloudKitchen</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <h1>Delicious Meals Delivered Fresh!</h1>
+            <p>Serving happiness at your doorstep. Order now and enjoy!</p>
+            <button onclick="alert('Redirecting to Order Page')">Order Now</button>
+        </section>
+
+        <section class="about" id="about">
+            <h2>About Us</h2>
+            <p>We are a cloud kitchen offering a variety of cuisines made with love and fresh ingredients. Your taste buds will thank you!</p>
+            <img src="food1.png" alt="Delicious Food">
+        </section>
+
+        <section class="menu" id="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="burger.png" alt="Burger">
+                    <h3>Cheesy Burger</h3>
+                    <p>100/- INR</p>
+                </div>
+                <div class="menu-item">
+                    <img src="pizza.png" alt="Pizza">
+                    <h3>Margherita Pizza</h3>
+                    <p>150/- INR</p>
+                </div>
+                <div class="menu-item">
+                    <img src="pasta.png" alt="Pasta">
+                    <h3>Creamy Alfredo Pasta</h3>
+                    <p>159/- INR</p>
+                </div>
+
+                <div class="menu-item">
+                    <img src="Cola.png" alt="Colddrink">
+                    <h3>Cold Drinks</h3>
+                    <p>30/- INR</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Chatbot -->
+    <div class="chatbot">
+        <div class="chatbot-header">
+            <h4>Cloud Kitchen Assistant</h4>
+            <button class="close-chatbot">&times;</button>
+        </div>
+        <div class="chatbot-messages"></div>
+        <div class="chatbot-input">
+            <input type="text" id="chat-input" placeholder="Type your message here...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <button class="chatbot-toggle" id="chatbot-toggle">💬</button>
+
+    <footer>
+        <p>© 2024 CloudKitchen | Fresh & Delicious Meals Everyday</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
