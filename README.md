@@ -16,10 +16,7 @@ A modern, responsive, and dynamic mini-website for a cloud kitchen, built using 
 - **JavaScript**: Interactive functionalities, including the chatbot.
 
 ## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Debomitasahoo/Cloud-Kitchen-Website.git
+  https://debomitasahoo.github.io/Cloud-Kitchen-Website/
 
 ## Project Structure
 Cloud-Kitchen-Website/
