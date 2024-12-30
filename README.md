@@ -20,3 +20,20 @@ A modern, responsive, and dynamic mini-website for a cloud kitchen, built using 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Debomitasahoo/Cloud-Kitchen-Website.git
+
+## Project Structure
+Cloud-Kitchen-Website/
+├── index.html       # Main HTML file
+├── style.css        # CSS for styling
+├── script.js        # JavaScript for chatbot and interactions
+├── assets/          # Images and other assets
+└── README.md        # Project documentation
+
+## Future Improvements
+Add a backend to handle user orders.
+Integrate a real chatbot API (like Dialogflow).
+Enhance accessibility features.
+
+## Contributions, issues, and feature requests are welcome!
+
+
